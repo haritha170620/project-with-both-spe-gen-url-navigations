@@ -22,6 +22,7 @@ from app3.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('haritha/',haritha,name='haritha'),
+    path('msd/',msd,name='msd'),
     path('app1/',include('app1.urls')),
     path('app2/',include('app2.urls')),
 ]
